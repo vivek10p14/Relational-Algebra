@@ -1,0 +1,42 @@
+Script started on Monday 17 October 2016 09:56:43 AM IST
+]0;vivek10p14@vivek10p14-Vostro-3446: ~/workspacec/c++/DBMS[01;32mvivek10p14@vivek10p14-Vostro-3446[00m:[01;34m~/workspacec/c++/DBMS[00m$ ./DBMS[K[K[K[K[K[Kscript screen.logexit[Kscript screen.log[Kscript screen.logexit[Kcd lmasoDesktopsync; echo 3 | sudo tee  /proc/sys/vm/drop_caches[A]0;vivek10p14@vivek10p14-Vostro-3446: ~/workspacec/c++/DBMS[01;32mvivek10p14@vivek10p14-Vostro-3446[00m:[01;34m~/workspacec/c++/DBMS[00m$ [Cudo echo 3 > /proc/sys/[10Pvm/drop_caches[A]0;vivek10p14@vivek10p14-Vostro-3446: ~/workspacec/c++/DBMS[01;32mvivek10p14@vivek10p14-Vostro-3446[00m:[01;34m~/workspacec/c++/DBMS[00m$ [Cync; echo 3 | sudo tee /proc/sys/vm/drop_caches[A]0;vivek10p14@vivek10p14-Vostro-3446: ~/workspacec/c++/DBMS[01;32mvivek10p14@vivek10p14-Vostro-3446[00m:[01;34m~/workspacec/c++/DBMS[00m$ [13Pcd Desktop
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Plmaso[4Pexitscript screen.log[K./S[KDBMS
+Start Server
+DB->use test1
+Database Changed
+DB->{}^[[D    ^[[D      {project * from}(<table3>{product}({rename name1,roll1}<table3>))
+************************************************
+name	roll	name1	roll1
+************************************************
+virat	58	virat	58
+virat	58	vivek	59
+virat	58	vedant	57
+virat	58	vedant	60
+vivek	59	virat	58
+vivek	59	vivek	59
+vivek	59	vedant	57
+vivek	59	vedant	60
+vedant	57	virat	58
+vedant	57	vivek	59
+vedant	57	vedant	57
+vedant	57	vedant	60
+vedant	60	virat	58
+vedant	60	vivek	59
+vedant	60	vedant	57
+vedant	60	vedant	60
+
+DB->{select name,roll,dept1 where #[roll = roll1]% from}(<table3>(re   {product}({rename name1,roll1,dept1}<table4>))
+************************************
+name	roll	dept1
+************************************
+virat	58	CSE
+vivek	59	MECH
+vedant	57	META
+vedant	60	CSE
+
+DB->exit
+BYE !!!
+]0;vivek10p14@vivek10p14-Vostro-3446: ~/workspacec/c++/DBMS[01;32mvivek10p14@vivek10p14-Vostro-3446[00m:[01;34m~/workspacec/c++/DBMS[00m$ exit
+exit
+
+Script done on Monday 17 October 2016 10:02:55 AM IST

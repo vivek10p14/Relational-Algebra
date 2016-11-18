@@ -1,0 +1,5 @@
+virat	58	CSE
+vivek	59	MECH
+vedant	57	META
+vedant	60	CSE
+ram	5	CSE

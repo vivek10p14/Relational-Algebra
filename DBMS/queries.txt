@@ -1,0 +1,31 @@
+1). show databases
+2). create database test1
+3). use test1
+4). show tables
+5). create table table3 name string,roll int
+6). create table table4 name string,roll int,dept string
+7). desc table3
+8). desc table4
+9). insert into table4 virat,58,CSE
+10). insert into table4 vivek,59,MECH
+11). insert into table4 vedant,57,META
+12). insert into table4 vedant,60,CSE
+13). insert into table4 ram,5,CSE
+14). insert into table3 vivek,59,MECH
+15). insert into table3 vedant,57,META
+16). insert into table3 vedant,57,META
+17). insert into table3 virat,58,CSE
+18). project * from table3
+19). project roll,dept from table4
+20). select * where #(roll > 60)% from table3
+21). select * where #([roll = 59] | [roll = 60]) & ([dept = CSE] | [dept = MECH])% from table4
+22). project name from table3 union project name from table4
+23). project name,roll from table3 union project name,roll from table4
+24). project name from table3 difference project name from table4
+25). project name,roll from table3 difference project name,roll from table4
+26). project name,roll from table3 product project dept from table4
+27). project roll form table3 product project roll,dept from table4
+28). rename name1,roll1,dept1 table4
+29). ({project * from}<table3>){product}({rename roll1,name1}({project roll,name from}<table4>))
+30). {select name,roll,dept1 where #[roll > roll1]% from}(<table3>{product}({rename}<table3>))
+31). exit
